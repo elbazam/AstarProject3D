@@ -71,6 +71,8 @@ Follow the following codes in order to activate:
 
 ### environment 2 - house world
 
+![house environment](pictures/house.jpg)
+
 Follow the following codes in order to activate:
 - In the first terminal
     ```sh
