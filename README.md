@@ -42,7 +42,7 @@ There are 2 environments for this code:
 ### environment 1 - demo world
 
 
-[demo environment](pictures/demo.jpg)
+![demo environment](pictures/demo.jpg)
 
 Follow the following codes in order to activate:
 - In the first terminal
