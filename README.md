@@ -65,7 +65,8 @@ Follow the following codes in order to activate:
     $ rosrun astarproj main.py
     ```
 - Wait for the obsticle configuration space to be generated. You will get the message it finished in the 4th terminal.
-- Use the mouse and click on "2d nav goal" button in rviz (purple color located in the upper area), then choose the point you would like to go to and click there. The arrow orientation will be the robot's goal orientation.
+- Use the mouse and click on "2d nav goal" button in rviz (purple color located in the upper area), then choose the point you would like to go to and click there. The arrow orientation will be the robot's goal orientation. An example:
+![example](pictures/example.jpeg)
 - If the goal is unreachable, you will recive a proper message in terminal 4, else the robot will move upon constructing the path.
 
 
