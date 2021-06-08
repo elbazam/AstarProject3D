@@ -98,6 +98,8 @@ Follow the following codes in order to activate:
 - Use the mouse and click on "2d nav goal" button in rviz (purple color located in the upper area), then choose the point you would like to go to and click there. The arrow orientation will be the robot's goal orientation.
 - If the goal is unreachable, you will recive a proper message in terminal 4, else the robot will move upon constructing the path.
 
+![Example](pictures/example_vid.mp4)
+
 ### Other environments
 
 In every environment, the robot's starting mapping point is different. As for now, at the beggining we do not save the original point so in order to integrate it to other worlds, copy main.py and change the x_start and y_start to be the spawn location of the robot in the map. For now only if the robot starting yaw orientation is 0 [rad] the algorithm will work.
