@@ -98,7 +98,7 @@ Follow the following codes in order to activate:
 - Use the mouse and click on "2d nav goal" button in rviz (purple color located in the upper area), then choose the point you would like to go to and click there. The arrow orientation will be the robot's goal orientation.
 - If the goal is unreachable, you will recive a proper message in terminal 4, else the robot will move upon constructing the path.
 
-![Example](pictures/example_vid.mp4)
+![Video example for this simulation](pictures/example_vid.mp4)
 
 ### Other environments
 
