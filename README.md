@@ -20,13 +20,13 @@ The following python package are required:
 ```sh
     $ cd ~/#your-catkin-workspace#/src/
     $ git clone https://github.com/tu-darmstadt-ros-pkg/hector_slam.git
-'''
+```
 
 - Turtlebot:
 ```sh
     $ cd ~/#your-catkin-workspace#/src/
     $ git clone https://github.com/ROBOTIS-GIT/turtlebot3.git
-'''
+```
 
 - Turtlebot simulation:
 ```sh
