@@ -5,10 +5,8 @@ ROS implementation for global and local planner. Global planner based on A*.
 
 
 
-
+## Video example
 [![Video](https://img.youtube.com/vi/u_siL7xBXnY/0.jpg)](https://youtu.be/u_siL7xBXnY)
-
-
 
 
 
