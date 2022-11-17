@@ -24,27 +24,27 @@ The following python package are required:
 1. For our tested environment, robot and map representation (Optional):
 - Hector SLAM:
 ```sh
-    $ cd ~/<your-catkin-workspace>/src/
+    $ cd ~/<your_catkin_workspace>/src/
     $ git clone https://github.com/tu-darmstadt-ros-pkg/hector_slam.git
 ```
 
 - Turtlebot:
 ```sh
-    $ cd ~/<your-catkin-workspace>/src/
+    $ cd ~/<your_catkin_workspace>/src/
     $ git clone https://github.com/ROBOTIS-GIT/turtlebot3.git
 ```
 
 - Turtlebot simulation:
 ```sh
-    $ cd ~/<your-catkin-workspace>/src/
+    $ cd ~/<your_catkin_workspace>/src/
     $ git clone -b melodic-devel https://github.com/ROBOTIS-GIT/turtlebot3_simulations.git    
 ```
 
 2. Download and build repository:
 ```sh
-    $ cd ~/<your-catkin-workspace>/src/
+    $ cd ~/<your_catkin_workspace>/src/
     $ git clone https://github.com/elbazam/AstarProject3D.git
-    $ cd ~/<your-catkin-workspace> && catkin_make
+    $ cd ~/<your_catkin_workspace> && catkin_make
 ```
 
 ## Execution
