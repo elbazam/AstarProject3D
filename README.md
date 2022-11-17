@@ -15,7 +15,7 @@ ROS implementation for global and local planner. Global planner based on A*.
 
 The following python package are required:
 
-- python 2.*
+- python 3.*
 - numpy
 - Tested in ROS melodic, Ubuntu 18.04
 
