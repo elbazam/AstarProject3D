@@ -3,7 +3,9 @@
 
 ROS implementation for global and local planner. Global planner based on A*. 
 
-![Video example for this simulation](pictures/example_vid.mp4)
+
+[![Video]()](https://youtu.be/u_siL7xBXnY)
+
 
 ## Dependencies
 
