@@ -21,11 +21,13 @@ The following python package are required:
     $ cd ~/#your-catkin-workspace#/src/
     $ git clone https://github.com/tu-darmstadt-ros-pkg/hector_slam.git
 '''
+
 - Turtlebot:
 ```sh
     $ cd ~/#your-catkin-workspace#/src/
     $ git clone https://github.com/ROBOTIS-GIT/turtlebot3.git
 '''
+
 - Turtlebot simulation:
 ```sh
     $ cd ~/#your-catkin-workspace#/src/
@@ -67,23 +69,25 @@ Run the following commands:
 
 ![house environment](pictures/house.jpg)
 
-Run the following commands::
+Run the following commands:
 - Launch world and robot:
     ```sh
     $ export TURTLEBOT3_MODEL=waffle
     $ roslaunch turtlebot3_gazebo turtlebot3_house.launch
     ```
+    
 - Launch SLAM algorithm:
     ```sh
     $ export TURTLEBOT3_MODEL=waffle
     $ roslaunch turtlebot3_slam turtlebot3_slam.launch slam_methods:=hector
     ```
+    
 - Main code:
     ```sh
     $ rosrun astarproj second_map_main.py
     ```
-- Use "2d nav goal" in rviz (purple color located in the upper area) to determine your goal (location and orientation).An example:
-![example](pictures/example.jpeg)
+    
+- Follow environment 1 example
 
 
 ### For other environment:
@@ -92,10 +96,10 @@ Run the following commands::
 - Launch occupancy grid based SLAM (a must).
 - Main code:
     ```sh
-    $ rosrun astarproj second_map_main.py
+    $ rosrun astarproj main.py
     ```
-- Use "2d nav goal" in rviz (purple color located in the upper area) to determine your goal (location and orientation).An example:
-![example](pictures/example.jpeg)
+    
+- Follow environment 1 example
 
 
 ## Messages
