@@ -1,5 +1,8 @@
+### Acknowledgement
+
+This work was done collaborating with <a href="https://github.com/igalka93" target="_blank">Igal Pinsky</a>, please follow his works.
 # AstarProject3D
-## Description
+
 
 ROS implementation for global and local planner. Global planner based on A*. 
 
